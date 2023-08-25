@@ -28,7 +28,20 @@ with open("notebooks/main.ipynb", "w") as f:
 
 # Crée le fichier README.md
 with open("README.md", "w") as f:
-    f.write("# Mon Projet\n\nCe projet est un exemple pour l'exercice.\n")
+    f.write("# Evaluation Cours de DevOps\n\n## Programme de création d'une Arborescence # ├── data               #  repertoire contenant des données (brutes, propres)")
+# │   ├── cleaned  s\n\n
+# │   └── raw s\n\n
+# ├── docs               #  repertoire contenant toute documentation utile s\n\n
+# ├── LICENSE s\n\n
+# ├── Makefile           #  fichier permettant d'automatiser des taches s\n\n
+# ├── models             #  repertoire contenant tous les modèles construits s\n\n
+# ├── notebooks          #  repertoire contenant tous les notebooks rédigés s\n\n
+# │   └── main.ipynb s\n\n
+# ├── README.md
+# ├── reports            #  repertoire contenant tous les rapports générés
+# ├── requirements.txt   #  fichier contenant la liste des dépendances du projets
+# └── src                #  repertoire contenant tout code python utile
+#     └── utils.py
 
 # Crée le fichier requirements.txt
 with open("requirements.txt", "w") as f:
